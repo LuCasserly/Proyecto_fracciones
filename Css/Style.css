@@ -1,0 +1,420 @@
+/* Página principal */
+
+div.titulo{
+    background-color: lightgreen;
+     text-align: center; 
+     font-size: large; 
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+header{text-align: center;}
+body{
+    background-color: lightgray;}
+
+h1.todosobrefracciones{
+    color: black; 
+    text-align: center; 
+    text-decoration: underline;}
+
+a{font-size: medium;}
+
+
+.grid-container-index{
+    display: grid;
+    grid-template-areas:
+    "p p p p"
+    "vid vid vid vid"
+    "img1 img2 img3 img4";
+    justify-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    column-gap: 3px;
+}
+
+.presentacion{
+    grid-area: p;
+}
+
+.video-definicion{
+    grid-area: vid;
+    padding: 30px;
+}
+
+.img1{
+    grid-area: img1;
+}
+
+.img1:hover{
+    opacity: 0.5;
+}
+
+.img2{
+    grid-area: img2;
+}
+
+.img3{
+    grid-area: img3;
+}
+
+.img4{
+    grid-area: img4;
+}
+
+/* Títulos de todas las secciones */
+
+h1.h1-clasificacion, h1.equivalentes, h1.h1-sumayresta, h1.multydiv{
+    text-align: center; 
+    text-decoration: underline; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 200%;}
+
+footer{text-align: center;}
+
+
+/* Menu de navegación */
+
+.Menu{
+    background-color: lightgreen;
+}
+
+.Menu ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-content: space-evenly;
+        }
+
+.Menu a{
+    justify-content: space-evenly;
+    color: black;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.images{
+    display: flex;
+    }
+
+.Home{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    color: black;
+}
+
+/*footer*/
+
+.grid-container-footer{
+    display: grid;
+    grid-template-areas: 
+    "img p a";
+    justify-items: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 50px;
+    margin-top: 2px,;
+}
+
+.p-footer{
+    grid-area: p;
+    justify-items: left;
+}
+
+.img-footer{
+    grid-area: img;
+}
+
+.a-footer{
+    grid-area: a;
+}
+/* Clasificación de fracciones*/
+
+.img-clasificacion{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.definiciones{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+.grid-container-clasificacion{
+    display: grid;
+    grid-template-areas: 
+    "img1 p1"
+    "img2 p2"
+    "img3 p3"
+    "img4 p4";
+    justify-items: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    row-gap: 40px;
+}
+
+.img-propia{
+    grid-area: img1;
+}
+
+.p-propia{
+    grid-area: p1;
+}
+
+.img-impropia{
+    grid-area: img2;
+}
+
+.p-impropia{
+    grid-area: p2;
+}
+
+.img-aparente{
+    grid-area: img3;
+}
+
+.p-aparente{
+    grid-area: p3;
+}
+
+.img-mixta{
+    grid-area: img4;
+}
+
+.p-mixta{
+    grid-area: p4;
+}
+/*Propia 
+
+.grid-container-propia{
+    display: grid;
+    grid-template-areas: 
+    "div p";
+    justify-items: center;
+    }
+
+div.img-propia{
+    grid-area: div;
+    place-content: center;
+}
+
+
+.p-propia{
+    grid-area: p;
+    align-content: center;
+    text-align: center;
+    font-size: large;
+} */
+
+/*Impropia
+
+.grid-container-impropia{
+    display: grid;
+    grid-template-areas: 
+    "h2 h2"
+    "img p";
+    column-gap: 2px;
+    justify-items: center;
+}
+
+.grid-container-impropia h2{
+    grid-area: h2;
+    align-content: center;
+    text-align: center;
+}
+
+.grid-container-impropia img{
+    grid-area: img;
+    justify-items: center;
+    justify-content: center;
+}
+
+.grid-container-impropia p{
+    grid-area: p;
+    align-content: center;
+    text-align: center;
+    font-size: large;
+}
+*/
+/*Aparentes*
+
+.grid-container-aparente{
+    display: grid;
+    grid-template-areas: 
+    "h2 h2"
+    "img p";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    column-gap: 2px;
+    justify-items:center;
+}
+
+.grid-container-aparente h2{
+    grid-area: h2;
+    align-content: center;
+    text-align: center;
+}
+
+.grid-container-aparente img{
+    grid-area: img;
+   }
+
+.grid-container-aparente p{
+    grid-area: p;
+    align-content: center;
+    text-align: center;
+    font-size: large;
+}
+*/
+/*Mixtas
+
+.grid-container-mixta{
+    display: grid;
+    grid-template-areas: 
+    "h2 h2"
+    "img p";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    column-gap: 2px;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid-container-mixta h2{
+    grid-area: h2;
+    }
+
+.grid-container-mixta img{
+    grid-area: img;
+    display: inline-block;
+    padding: 5 px;
+}
+
+.grid-container-mixta p{
+    grid-area: p;
+    font-size: large;
+}
+*/
+
+/*Fracciones equivalentes*/
+
+.definicion-equivalentes h2,.metodo-equivalentes h2, .como-encontrar-equivalentes h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.definicion-equivalentes, .metodo-equivalentes, .como-encontrar-equivalentes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.definicion-equivalentes p,.metodo-equivalentes p, .como-encontrar-equivalentes p, .como-encontrar-equivalentes h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.metodo-equivalentes div{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.como-encontrar-equivalentes h4{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    text-decoration: solid;
+    padding: 10px;
+}
+
+.como-encontrar-equivalentes div{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+/* Suma y resta */
+
+.sumayresta p{
+    display:flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    padding-bottom: 20px;
+    padding: 10px;
+}
+/*
+.igual-denominador h2, .distinto-denominador h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.igual-denominador div, .distinto-denominador div{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+    */
+
+.grid-container-sumayresta{
+    display: grid;
+    grid-template-areas: 
+    "h2a h2b"
+    "video1 video2";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    column-gap: 2px;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+}
+
+.sumayresta-igual{
+    grid-area: h2a;
+}
+
+.video1{
+    grid-area: video1;
+}
+
+/*Multiplicación y división*/
+
+.mult-div{
+    display: grid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    grid-template-areas: 
+    "h2a h2b"
+    "img1 img2";
+    column-gap: 10 px;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.mult{
+    grid-area: h2a;
+}
+
+.mult-img{
+    grid-area: img1;
+}
+
+.div{
+    grid-area: h2b;
+}
+
+.saber-mas h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.sabermas-video{
+    display:flex;
+    justify-content: center;
+}
