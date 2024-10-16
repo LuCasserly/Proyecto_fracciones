@@ -4,16 +4,28 @@ div.titulo{
     background-color: lightgreen;
      text-align: center; 
      font-size: large; 
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
-header{text-align: center;}
+header{text-align: center;
+
+}
+
+.logo-pagina{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
 body{
-    background-color: lightgray;}
+    background-color: lightgray;
+}
 
 h1.todosobrefracciones{
     color: black; 
     text-align: center; 
-    text-decoration: underline;}
+    text-decoration: underline;
+}    
 
 a{font-size: medium;}
 
@@ -36,7 +48,10 @@ a{font-size: medium;}
 .video-definicion{
     grid-area: vid;
     padding: 30px;
+    width: auto;
 }
+
+/* Links a las distintas páginas del sitio web a partir de imágenes*/
 
 .img1{
     grid-area: img1;
@@ -50,12 +65,24 @@ a{font-size: medium;}
     grid-area: img2;
 }
 
+.img2:hover{
+    opacity: 0.5;
+}
+
 .img3{
     grid-area: img3;
 }
 
+.img3:hover{
+    opacity: 0.5;
+}
+
 .img4{
     grid-area: img4;
+}
+
+.img4:hover{
+    opacity: 0.5;
 }
 
 /* Títulos de todas las secciones */
@@ -64,7 +91,8 @@ h1.h1-clasificacion, h1.equivalentes, h1.h1-sumayresta, h1.multydiv{
     text-align: center; 
     text-decoration: underline; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    font-size: 200%;}
+    font-size: 200%;
+}
 
 footer{text-align: center;}
 
@@ -80,7 +108,7 @@ footer{text-align: center;}
     list-style: none;
     padding: 10px;
     justify-content: space-evenly;
-        }
+}
 
 .Menu a{
     justify-content: space-evenly;
@@ -91,8 +119,7 @@ footer{text-align: center;}
 
 
 .images{
-    display: flex;
-    }
+    display: flex;}
 
 .Home{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -107,25 +134,28 @@ footer{text-align: center;}
     display: grid;
     grid-template-areas: 
     "img p a";
-    justify-items: center;
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-top: 50px;
-    margin-top: 2px,;
-}
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid black;
+    }
 
 .p-footer{
     grid-area: p;
-    justify-items: left;
-}
+    }
 
 .img-footer{
     grid-area: img;
-}
+    }
 
 .a-footer{
     grid-area: a;
+   
 }
+    
+
+
 /* Clasificación de fracciones*/
 
 .img-clasificacion{
@@ -188,6 +218,7 @@ footer{text-align: center;}
 .p-mixta{
     grid-area: p4;
 }
+
 /*Propia 
 
 .grid-container-propia{
