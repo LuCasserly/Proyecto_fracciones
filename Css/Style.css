@@ -97,6 +97,9 @@ a {
     opacity: 0.5;
 }
 
+.img-home {
+    width: 50px;
+}
 /* Títulos de todas las secciones */
 
 h1.h1-clasificacion,
