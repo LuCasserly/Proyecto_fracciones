@@ -182,9 +182,11 @@ footer {
     display: flex;
     justify-content: center;
     padding: 20px;
-
 }
 
+.img-c{
+    width: 1000px;
+}
 .definiciones {
     display: flex;
     padding: 20px;
@@ -264,7 +266,17 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.ej-equivalente {
+    width: 500px;
+}
 
+.amplificando {
+    width: 600px;
+}
+
+.simplificando {
+    width: 620px;
+}
 .metodo-equivalentes div {
     display: flex;
     justify-content: center;
