@@ -22,7 +22,7 @@ body {
     background-color: lightgray;
 }
 
-h1.todosobrefracciones {
+.todo-sobre-fracciones {
     color: black;
     text-align: center;
     text-decoration: underline;
@@ -99,10 +99,10 @@ a {
 
 /* Títulos de todas las secciones */
 
-h1.h1-clasificacion,
-h1.equivalentes,
-h1.h1-sumayresta,
-h1.multydiv {
+.h2-clasificacion,
+.equivalentes,
+.h2-suma-resta,
+.h2.mult-div {
     text-align: center;
     text-decoration: underline;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
