@@ -101,6 +101,7 @@ a {
 .img-home {
     width: 50px;
 }
+
 /* Subtítulos de todas las secciones */
 
 .h2-clasificacion,
@@ -188,9 +189,10 @@ footer {
     padding: 20px;
 }
 
-.img-c{
+.img-c {
     width: 1000px;
 }
+
 .definiciones {
     display: flex;
     padding: 20px;
@@ -281,6 +283,7 @@ footer {
 .simplificando {
     width: 620px;
 }
+
 .metodo-equivalentes div {
     display: flex;
     justify-content: center;
