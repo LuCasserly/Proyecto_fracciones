@@ -102,19 +102,12 @@ a {
     width: 50px;
 }
 
-<<<<<<< HEAD
 /* Subtítulos de todas las secciones */
 
 .h2-clasificacion,
 .equivalentes,
 .h2-sumayresta,
 .h2-multydiv {
-=======
-.h2-clasificacion,
-.equivalentes,
-.h2-suma-resta,
-.h2.mult-div {
->>>>>>> testing
     text-align: center;
     text-decoration: underline;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
